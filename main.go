@@ -1,6 +1,12 @@
 package main
 
+/*
+#cgo LDFLAGS: -L./c -lchecktime
+#include "./c/checktime.h"
+*/
+import "C"
+import "fmt"
+
 func main() {
-	// This is a simple Go program that prints "Hello, World!" to the console.
-	println("Hello, World!")
+	fmt.Print(C.checktime())
 }

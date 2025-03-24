@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "libchecktime.h"
+#include "checktime.h"
 
 int main() {
     checktime();

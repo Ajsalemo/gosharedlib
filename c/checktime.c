@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include "libchecktime.h"
+#include "checktime.h"
 
 int checktime()
 {
